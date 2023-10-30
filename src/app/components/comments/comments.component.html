@@ -1,0 +1,17 @@
+
+<div class="comments-container">
+    <div class="container" *ngFor="let comment of comments">
+        <strong>ID: </strong>{{comment.id}}
+        <strong>Name: </strong>{{comment.name}} 
+        <strong>Email: </strong>{{comment.email}} 
+        <strong>Body: </strong>{{comment.body}} 
+        <button style="background: yellow;">Update</button>
+        <button (click)="delete(comment.id)">Delete</button>   
+    </div>
+</div>
+<!--
+    <app-post-user></app-post-user>
+-->
+
+
+

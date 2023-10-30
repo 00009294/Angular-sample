@@ -1,0 +1,25 @@
+.comments-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    width: 20%;
+    background: rgb(187, 108, 108);
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+}
+.container button{
+    cursor: pointer;
+    background: rgb(227, 18, 18);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(18, 15, 15);
+    margin: 5px;
+    padding: 7px;
+    border-radius: 5px;
+}

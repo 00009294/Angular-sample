@@ -1,0 +1,8 @@
+<form (ngSubmit)="create(comment)" >
+    <div class="input-container">
+        <strong>NAME </strong><input type="text" [(ngModel)]="comment.name" name="name" placeholder="Name" required> <br>
+        <strong>Email </strong><input type="email" [(ngModel)]="comment.email" name="email" placeholder="Email" required> <br>
+        <strong>Body </strong><input type="text" [(ngModel)]="comment.body" name="body" placeholder="Body" required> <br>
+        <button type="submit">Save</button>
+    </div>
+</form>
